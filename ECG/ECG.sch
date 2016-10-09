@@ -63,6 +63,11 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -71,6 +76,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="Invisibles" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -81,12 +87,31 @@
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="Text" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="2Restrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tText" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bMask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -113,9 +138,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -6394,6 +6431,319 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="sf-bluegiga">
+<description>&lt;strong&gt;Bluegiga Technologies Bluetooth and Wi-Fi modules&lt;/strong&gt;
+
+&lt;p&gt;Includes devices for all of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BLE112-A, BLE112-E&lt;/li&gt;
+&lt;li&gt;BLE113-A&lt;/li&gt;
+&lt;li&gt;BLE121LR-A&lt;/li&gt;
+&lt;li&gt;BT111-A&lt;/li&gt;
+&lt;li&gt;WT11i-A, WT11i-E&lt;/li&gt;
+&lt;li&gt;WT12-A&lt;/li&gt;
+&lt;li&gt;WT21-A, WT21-N&lt;/li&gt;
+&lt;li&gt;WT32-A, WT32-E&lt;/li&gt;
+&lt;li&gt;WT41-A, WT41-E, WT41-N&lt;/li&gt;
+&lt;li&gt;WF111-A, WF111-E&lt;/li&gt;
+&lt;li&gt;WF121-A, WF121-E&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All &lt;strong&gt;-A&lt;/strong&gt; variants have built-in chip antennas. All &lt;strong&gt;-N&lt;/strong&gt; variants have RF pins for feeding an external antenna through the PCB. All &lt;strong&gt;-E&lt;/strong&gt; variants include a small antenna connector (U.Fl or W.Fl) on the top face of the module.&lt;/p&gt;
+
+&lt;p&gt;In addition, each module includes a logical pin layout symbol as well as a visual pin layout symbol. The corresponding packages are the same, but depending on your needs or preferences, you may prefer one over the other. For example, using a visual pin layout symbol makes the creation of breakout boards incredibly simple. Visual symbols are denoted by a &lt;strong&gt;-VISUAL&lt;/strong&gt; suffix on the part name.&lt;/p&gt;
+
+&lt;p&gt;Created by Jeff Rowberg&lt;br /&gt;&lt;a href="mailto:jeff@rowberg.net"&gt;jeff@rowberg.net&lt;/a&gt;&lt;br /&gt;&lt;a href="http://www.sectorfej.net"&gt;www.sectorfej.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2014-05-21&lt;/em&gt;&lt;/p&gt;</description>
+<packages>
+<package name="BGM111-A">
+<description>&lt;p&gt;Bluetooth 4.1 (4.2 ready) low-energy module (Bluetooth Smart) - BGM111-A variant has an on-module ceramic chip antenna.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BGM111-A variant includes keepout/restrict area. Antenna edge of the module should be flush up against the edge of the PCB. See datasheet for variant layout details. &lt;span style="color: #F00;"&gt;IT IS EXTREMELY IMPORTANT THAT YOU FOLLOW THE LAYOUT GUIDELINES FOR THIS MODULE IN ORDER TO ENSURE MAXIMUM RANGE. THIS MEANS THAT YOU NEED A SOLID GROUND PLANE EXTENDING IDEALLY &lt;span style="background: #FF0;"&gt;&amp;nbsp;17 mm&amp;nbsp;&lt;/span&gt; ON THE LEFT AND RIGHT SIDES OF THE MODULE, AS SHOWN IN THE DATASHEET.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Silicon Labs Blue Gecko BGM111 Bluetooth® Smart module integrates our next generation wireless SoC with a complete Bluetooth Smart software stack and antenna to provide a complete, pre-certified plug-and-play Bluetooth Smart solution. It solves one of the major customer roadblocks for fast time-to-market as it integrates antenna, software and RF certifications, saving months of engineering effort and testing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.silabs.com/products/wireless/bluetooth/Pages/BGM111-bluetooth-smart-module.aspx"&gt;https://www.silabs.com/products/wireless/bluetooth/Pages/BGM111-bluetooth-smart-module.aspx&lt;/a&gt;&lt;br /&gt;&lt;a href="https://github.com/jrowberg/sf-oshw"&gt;https://github.com/jrowberg/sf-oshw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2015-09-02 by Jeff Rowberg &amp;lt;jeff@rowberg.net&amp;gt;&lt;/em&gt;&lt;/p&gt;</description>
+<wire x1="-6.45" y1="-7.5" x2="-6.45" y2="7.5" width="0.127" layer="21"/>
+<wire x1="-6.45" y1="7.5" x2="6.45" y2="7.5" width="0.127" layer="21"/>
+<wire x1="6.45" y1="7.5" x2="6.45" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="6.45" y1="-7.5" x2="-6.45" y2="-7.5" width="0.127" layer="21"/>
+<smd name="PA4" x="-5.65" y="-2.95" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PA3" x="-5.65" y="-1.75" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PA2" x="-5.65" y="-0.55" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PA1" x="-5.65" y="0.65" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PA0" x="-5.65" y="1.85" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PD15" x="-5.65" y="3.05" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF7" x="5.65" y="3.05" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="VDD" x="5.65" y="4.25" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="RESET" x="5.65" y="5.45" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@4" x="5.65" y="6.65" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PD14" x="-5.65" y="4.25" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PD13" x="-5.65" y="5.45" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="GND" x="-5.65" y="6.65" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PC9" x="1.2" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R180"/>
+<smd name="PC8" x="0" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R180"/>
+<smd name="PC7" x="-1.2" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R180"/>
+<smd name="PC6" x="-2.4" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R180"/>
+<smd name="PB13" x="-3.6" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R180"/>
+<smd name="GND@2" x="-5.65" y="-6.55" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PB11" x="-5.65" y="-5.35" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PA5" x="-5.65" y="-4.15" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PC10" x="2.4" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100"/>
+<smd name="PC11" x="3.6" y="-6.7" dx="0.8" dy="2.4" layer="1" roundness="100"/>
+<smd name="GND@3" x="5.65" y="-6.55" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF0" x="5.65" y="-5.35" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<text x="-4.2" y="6.35" size="0.6096" layer="51" rot="SR0">1</text>
+<text x="-3.35" y="-5.2" size="0.6096" layer="51" rot="SR90">13</text>
+<text x="3.85" y="-5.2" size="0.6096" layer="51" rot="SR90">19</text>
+<text x="3.2" y="6.35" size="0.6096" layer="51" rot="SR0">31</text>
+<text x="-6.5" y="8" size="1.016" layer="25" rot="SR0">&gt;NAME</text>
+<text x="-6.5" y="-9" size="1.016" layer="27" rot="SR0">&gt;VALUE</text>
+<smd name="PF1" x="5.65" y="-4.15" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF2" x="5.65" y="-2.95" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF3" x="5.65" y="-1.75" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF4" x="5.65" y="-0.55" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF5" x="5.65" y="0.65" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="PF6" x="5.65" y="1.85" dx="0.8" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<rectangle x1="-3.8" y1="4" x2="3.8" y2="7.5" layer="39"/>
+<rectangle x1="-3.8" y1="4" x2="3.8" y2="7.5" layer="40"/>
+<rectangle x1="-3.8" y1="4" x2="3.8" y2="7.5" layer="41"/>
+<rectangle x1="-3.8" y1="4" x2="3.8" y2="7.5" layer="42"/>
+<rectangle x1="-3.8" y1="4" x2="3.8" y2="7.5" layer="43"/>
+<rectangle x1="-2" y1="5.45" x2="1" y2="6.95" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BGM111-A-VISUAL">
+<wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<text x="-15.24" y="21.59" size="2.54" layer="95">&gt;NAME</text>
+<text x="1.778" y="21.59" size="2.54" layer="96">&gt;VALUE</text>
+<pin name="GND" x="-17.78" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="VDD" x="17.78" y="12.7" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="PF6" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="PB11" x="-17.78" y="-7.62" visible="pin" length="short"/>
+<pin name="PD15" x="-17.78" y="10.16" visible="pin" length="short"/>
+<pin name="PF7" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PD14" x="-17.78" y="12.7" visible="pin" length="short"/>
+<pin name="PD13" x="-17.78" y="15.24" visible="pin" length="short"/>
+<pin name="PA5" x="-17.78" y="-5.08" visible="pin" length="short"/>
+<pin name="PA4" x="-17.78" y="-2.54" visible="pin" length="short"/>
+<pin name="PA3" x="-17.78" y="0" visible="pin" length="short"/>
+<pin name="PA2" x="-17.78" y="2.54" visible="pin" length="short"/>
+<pin name="PA1" x="-17.78" y="5.08" visible="pin" length="short"/>
+<pin name="PA0" x="-17.78" y="7.62" visible="pin" length="short"/>
+<pin name="RESET" x="17.78" y="15.24" visible="pin" length="short" direction="in" rot="R180"/>
+<wire x1="12.7" y1="16.256" x2="5.842" y2="16.256" width="0.127" layer="97"/>
+<pin name="PF5" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PF4" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="PF3" x="17.78" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PF2" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="PF1" x="17.78" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PF0" x="17.78" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="-17.78" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@3" x="17.78" y="-10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@4" x="17.78" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="PB13" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC6" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC7" x="-2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC8" x="0" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC9" x="2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC10" x="5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PC11" x="7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BGM111-VISUAL" prefix="U">
+<description>&lt;p&gt;Bluetooth 4.1 (4.2 ready) low-energy module (Bluetooth Smart) - BGM111-A variant has an on-module ceramic chip antenna.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BGM111-A variant includes keepout/restrict area. Antenna edge of the module should be flush up against the edge of the PCB. See datasheet for variant layout details. &lt;span style="color: #F00;"&gt;IT IS EXTREMELY IMPORTANT THAT YOU FOLLOW THE LAYOUT GUIDELINES FOR THIS MODULE IN ORDER TO ENSURE MAXIMUM RANGE. THIS MEANS THAT YOU NEED A SOLID GROUND PLANE EXTENDING IDEALLY &lt;span style="background: #FF0;"&gt;&amp;nbsp;17 mm&amp;nbsp;&lt;/span&gt; ON THE LEFT AND RIGHT SIDES OF THE MODULE, AS SHOWN IN THE DATASHEET.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Silicon Labs Blue Gecko BGM111 Bluetooth® Smart module integrates our next generation wireless SoC with a complete Bluetooth Smart software stack and antenna to provide a complete, pre-certified plug-and-play Bluetooth Smart solution. It solves one of the major customer roadblocks for fast time-to-market as it integrates antenna, software and RF certifications, saving months of engineering effort and testing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.silabs.com/products/wireless/bluetooth/Pages/BGM111-bluetooth-smart-module.aspx"&gt;https://www.silabs.com/products/wireless/bluetooth/Pages/BGM111-bluetooth-smart-module.aspx&lt;/a&gt;&lt;br /&gt;&lt;a href="https://github.com/jrowberg/sf-oshw"&gt;https://github.com/jrowberg/sf-oshw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2015-09-02 by Jeff Rowberg &amp;lt;jeff@rowberg.net&amp;gt;&lt;/em&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BGM111-A-VISUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A" package="BGM111-A">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA3" pad="PA3"/>
+<connect gate="G$1" pin="PA4" pad="PA4"/>
+<connect gate="G$1" pin="PA5" pad="PA5"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB13" pad="PB13"/>
+<connect gate="G$1" pin="PC10" pad="PC10"/>
+<connect gate="G$1" pin="PC11" pad="PC11"/>
+<connect gate="G$1" pin="PC6" pad="PC6"/>
+<connect gate="G$1" pin="PC7" pad="PC7"/>
+<connect gate="G$1" pin="PC8" pad="PC8"/>
+<connect gate="G$1" pin="PC9" pad="PC9"/>
+<connect gate="G$1" pin="PD13" pad="PD13"/>
+<connect gate="G$1" pin="PD14" pad="PD14"/>
+<connect gate="G$1" pin="PD15" pad="PD15"/>
+<connect gate="G$1" pin="PF0" pad="PF0"/>
+<connect gate="G$1" pin="PF1" pad="PF1"/>
+<connect gate="G$1" pin="PF2" pad="PF2"/>
+<connect gate="G$1" pin="PF3" pad="PF3"/>
+<connect gate="G$1" pin="PF4" pad="PF4"/>
+<connect gate="G$1" pin="PF5" pad="PF5"/>
+<connect gate="G$1" pin="PF6" pad="PF6"/>
+<connect gate="G$1" pin="PF7" pad="PF7"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ANTENNA" value="On-module ceramic chip antenna"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="adafruit">
+<packages>
+<package name="PUSHBUTTON_SMD_SJ">
+<wire x1="-2.9997" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.2032" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3" x2="-2.9997" y2="3" width="0.2032" layer="51"/>
+<wire x1="-3" y1="1.7" x2="-3" y2="3" width="0.2032" layer="21"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.2032" layer="21"/>
+<wire x1="3" y1="3" x2="3" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.7" x2="3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-3" x2="-3" y2="-1.7" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.8398" width="0.2032" layer="51"/>
+<smd name="P$1" x="3" y="0" dx="2" dy="2" layer="1"/>
+<smd name="P$2" x="-3" y="0" dx="2" dy="2" layer="1"/>
+<text x="-1.778" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.778" y="-0.762" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TACT_PANA-EVQ">
+<pad name="P$1" x="-3.25" y="0" drill="1.3" diameter="2.54"/>
+<pad name="P$2" x="3.25" y="0" drill="1.3" diameter="2.54"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.5" x2="3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0" x2="-3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="-0.5" x2="-3.95" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="1.5" x2="-3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.9" x2="3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-1.9" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
+<text x="-3.043" y="2.17" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.016" y="-2.451" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="BTN_CK_KSS">
+<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="2.75" y1="1.75" x2="2.75" y2="1.505" width="0.127" layer="51"/>
+<wire x1="2.75" y1="1.505" x2="2.75" y2="-1.505" width="0.127" layer="51"/>
+<wire x1="2.75" y1="-1.505" x2="2.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="2.75" y1="-1.75" x2="1.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1.75" x2="-1.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-1.75" x2="-2.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="-1.75" x2="-2.75" y2="-1.505" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="-1.505" x2="-2.75" y2="1.505" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="1.505" x2="-2.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3.5" y1="1.505" x2="3.5" y2="-1.505" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-1.505" x2="-3.5" y2="1.505" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2.65" x2="1.25" y2="-2.65" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-2.65" x2="1.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2.65" x2="-1.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="1.505" x2="-2.75" y2="1.505" width="0.127" layer="51"/>
+<wire x1="2.75" y1="1.505" x2="3.5" y2="1.505" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="-1.505" x2="-3.5" y2="-1.505" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-1.505" x2="2.75" y2="-1.505" width="0.127" layer="51"/>
+<smd name="P$1" x="-2.95" y="0" dx="1.7" dy="3.7" layer="1"/>
+<smd name="P$2" x="2.95" y="0" dx="1.7" dy="3.7" layer="1"/>
+<wire x1="-1.9" y1="1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="-1.4" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
+<text x="-1.886" y="2.094" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.886" y="1.144" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PUSHBUTTON">
+<wire x1="-2.54" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="2.286" x2="0" y2="2.286" width="0.254" layer="94"/>
+<wire x1="0" y1="2.286" x2="0.635" y2="2.286" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="2.286" width="0.254" layer="94"/>
+<text x="-2.54" y="3.556" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.286" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH_PUSHBUTTON" prefix="SW" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;Buttons&lt;/b&gt;&lt;/p&gt;
+&lt;b&gt;SOFTTOUCHSMD_SJ&lt;/b&gt; - Soft touch temporary push button (Super Junk Akihabara)
+&lt;p&gt;Compatible with SKPMANE010 [Mouser: 688-SKPMAN]&lt;/p&gt;
+&lt;p&gt;C&amp;K_KSS = Digikey: KSS221GLFS&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PUSHBUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOFTTOUCHSMD_SJ" package="PUSHBUTTON_SMD_SJ">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQ-PE" package="TACT_PANA-EVQ">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C&amp;K_KSS" package="BTN_CK_KSS">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6443,6 +6793,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R39" library="SparkFun-Resistors" deviceset="0OHM1/10W5%(0603)" device="" value="0"/>
 <part name="R40" library="SparkFun-Resistors" deviceset="0OHM1/10W5%(0603)" device="" value="DNP"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="U1" library="sf-bluegiga" deviceset="BGM111-VISUAL" device="-A"/>
+<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="SW1" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="SOFTTOUCHSMD_SJ"/>
+<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6508,6 +6866,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R39" gate="G$1" x="162.56" y="-5.08" rot="R270"/>
 <instance part="R40" gate="G$1" x="162.56" y="-20.32" rot="R270"/>
 <instance part="LOGO3" gate="G$1" x="149.86" y="-40.64"/>
+<instance part="U1" gate="G$1" x="177.8" y="-76.2"/>
+<instance part="GND1" gate="1" x="147.32" y="-60.96"/>
+<instance part="GND2" gate="1" x="147.32" y="-88.9"/>
+<instance part="GND3" gate="1" x="208.28" y="-88.9"/>
+<instance part="GND4" gate="1" x="205.74" y="-60.96"/>
+<instance part="SUPPLY2" gate="G$1" x="208.28" y="-73.66" rot="R270"/>
+<instance part="SW1" gate="G$1" x="220.98" y="-68.58"/>
+<instance part="GND8" gate="1" x="231.14" y="-68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6544,6 +6910,31 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="160.02" y1="-58.42" x2="147.32" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="160.02" y1="-86.36" x2="147.32" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@3"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="195.58" y1="-86.36" x2="208.28" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@4"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="195.58" y1="-58.42" x2="205.74" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="SW1" gate="G$1" pin="P$2"/>
+<wire x1="228.6" y1="-68.58" x2="226.06" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -6621,6 +7012,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="88.9" y1="-30.48" x2="93.98" y2="-30.48" width="0.1524" layer="91"/>
 <label x="93.98" y="-30.48" size="1.27" layer="95" xref="yes"/>
 <junction x="88.9" y="-22.86"/>
+<wire x1="88.9" y1="-30.48" x2="88.9" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="88.9" y="-30.48"/>
+<wire x1="88.9" y1="-83.82" x2="162.56" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="G$1" pin="3"/>
@@ -6803,6 +7197,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VDD"/>
+<wire x1="195.58" y1="-63.5" x2="198.12" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-63.5" x2="198.12" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-73.66" x2="208.28" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="LO+" class="0">
 <segment>
@@ -6884,6 +7285,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="162.56" y1="-12.7" x2="162.56" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="162.56" y="-12.7"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="RESET"/>
+<wire x1="195.58" y1="-60.96" x2="200.66" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-60.96" x2="200.66" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="P$1"/>
+<wire x1="200.66" y1="-68.58" x2="215.9" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
