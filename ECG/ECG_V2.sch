@@ -5796,13 +5796,13 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="JP1" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
 <part name="JP2" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
 <part name="BAT2" library="SMTU-2032-1" deviceset="2032" device=""/>
 <part name="J1" library="tag-connect" deviceset="TC2030" device="-MCP-NL"/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5869,7 +5869,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <instance part="GND13" gate="1" x="215.9" y="-60.96"/>
 <instance part="SUPPLY11" gate="G$1" x="208.28" y="-73.66" rot="R180"/>
 <instance part="GND14" gate="1" x="167.64" y="-114.3"/>
-<instance part="SUPPLY12" gate="G$1" x="157.48" y="-114.3" rot="R270"/>
 <instance part="GND15" gate="1" x="25.4" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="22.86" y="-48.26" size="1.778" layer="96"/>
 </instance>
@@ -5878,6 +5877,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <instance part="JP2" gate="G$1" x="43.18" y="30.48" rot="R180"/>
 <instance part="BAT2" gate="G$1" x="17.78" y="-43.18" rot="R180"/>
 <instance part="J1" gate="G$1" x="137.16" y="-109.22" rot="R180"/>
+<instance part="SUPPLY1" gate="G$1" x="160.02" y="-114.3" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6185,10 +6185,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <pinref part="R40" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-<wire x1="157.48" y1="-114.3" x2="149.86" y2="-114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="VDD"/>
 <wire x1="195.58" y1="-63.5" x2="208.28" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-63.5" x2="208.28" y2="-73.66" width="0.1524" layer="91"/>
@@ -6198,6 +6194,11 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
 <wire x1="10.16" y1="-43.18" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="BAT2" gate="G$1" pin="+"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<wire x1="149.86" y1="-114.3" x2="160.02" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LO+" class="0">
