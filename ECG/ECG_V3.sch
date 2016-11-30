@@ -5400,22 +5400,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="PETAL-LONG-2">
-<pad name="1" x="0" y="0" drill="2.794" diameter="15.24"/>
+<pad name="1" x="0" y="0" drill="2.794"/>
 <polygon width="0.127" layer="1">
-<vertex x="-3.81" y="0" curve="180"/>
-<vertex x="3.81" y="0" curve="180"/>
+<vertex x="-7.62" y="-0.508" curve="180"/>
+<vertex x="7.62" y="-0.127" curve="180"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="-1.27" y="3.81" curve="-270"/>
-<vertex x="-3.81" y="-1.27" curve="-90"/>
+<vertex x="-1.143" y="6.985" curve="-270"/>
+<vertex x="-7.239" y="-1.651" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="31">
 <vertex x="2.54" y="1.27" curve="-323.130102"/>
 <vertex x="1.27" y="2.54" curve="-36.869954"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="6.35" y="1.27" curve="-222.075016"/>
-<vertex x="-5.08" y="3.81" curve="-137.924902"/>
+<vertex x="7.239" y="1.905" curve="-222.075016"/>
+<vertex x="-6.858" y="2.921" curve="-137.924902"/>
 </polygon>
 </package>
 <package name="PETAL-MEDIUM">
@@ -5801,8 +5801,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="tag-connect" deviceset="TC2030" device="-MCP-NL"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="JP3" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
-<part name="JP4" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
+<part name="JP1" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
+<part name="JP2" library="LilyPad-Wearables" deviceset="SEWTAP" device="2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5874,8 +5874,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND16" gate="1" x="187.96" y="-22.86"/>
 <instance part="J2" gate="G$1" x="157.48" y="-17.78" rot="R180"/>
 <instance part="SUPPLY14" gate="G$1" x="180.34" y="-22.86" rot="R270"/>
-<instance part="JP3" gate="G$1" x="27.94" y="134.62" rot="R180"/>
-<instance part="JP4" gate="G$1" x="27.94" y="124.46" rot="R180"/>
+<instance part="JP1" gate="G$1" x="27.94" y="134.62" rot="R180"/>
+<instance part="JP2" gate="G$1" x="27.94" y="124.46" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6028,10 +6028,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="81.28" y1="132.08" x2="81.28" y2="129.54" width="0.1524" layer="91"/>
 <junction x="81.28" y="129.54"/>
 <label x="73.66" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="134.62" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <junction x="76.2" y="129.54"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RA" class="0">
@@ -6044,12 +6044,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="88.9" y1="132.08" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
 <junction x="88.9" y="124.46"/>
 <label x="73.66" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="124.46" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
 <junction x="81.28" y="124.46"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
