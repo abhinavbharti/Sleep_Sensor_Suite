@@ -5402,8 +5402,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="PETAL-LONG-2">
 <pad name="1" x="0" y="0" drill="2.794" diameter="15.24"/>
 <polygon width="0.127" layer="1">
-<vertex x="-7.62" y="0" curve="180"/>
-<vertex x="7.62" y="0" curve="180"/>
+<vertex x="-3.81" y="0" curve="180"/>
+<vertex x="3.81" y="0" curve="180"/>
 </polygon>
 <polygon width="0.127" layer="29">
 <vertex x="-1.27" y="3.81" curve="-270"/>
