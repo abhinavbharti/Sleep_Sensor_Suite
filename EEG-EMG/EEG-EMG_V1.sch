@@ -621,34 +621,39 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <rectangle x1="-0.3048" y1="2.794" x2="0.3048" y2="3.302" layer="21"/>
 <rectangle x1="-2.8448" y1="2.794" x2="-2.2352" y2="3.302" layer="21"/>
 </package>
-<package name="JP2Q">
+<package name="JP2">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-2.54" y1="-2.159" x2="-2.54" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="2.54" x2="0" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="0" y1="2.159" x2="0.381" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="2.54" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.159" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.159" x2="2.54" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-2.159" x2="2.159" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="-2.54" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-2.159" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-2.159" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.159" x2="-2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="2.54" x2="-0.381" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-2.159" x2="-2.159" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-2.54" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="2" x="-1.27" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="3" x="1.27" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="4" x="1.27" y="1.27" drill="0.9144" shape="octagon"/>
-<text x="-1.778" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.762" y="-4.191" size="1.27" layer="21" ratio="10">2</text>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.5748" y1="0.9652" x2="-0.9652" y2="1.5748" layer="51"/>
-<rectangle x1="0.9652" y1="0.9652" x2="1.5748" y2="1.5748" layer="51"/>
-<rectangle x1="0.9652" y1="-1.5748" x2="1.5748" y2="-0.9652" layer="51"/>
-<rectangle x1="-1.5748" y1="-1.5748" x2="-0.9652" y2="-0.9652" layer="51"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
+<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
+<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
+<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
+<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -668,26 +673,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-<symbol name="J2">
-<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="-3.81" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -709,18 +694,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JP2Q" prefix="JP" uservalue="yes">
+<deviceset name="JP2E" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
-<gate name="B1" symbol="J2" x="0" y="0"/>
+<gate name="1" symbol="JP3E" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JP2Q">
+<device name="" package="JP2">
 <connects>
-<connect gate="B1" pin="1" pad="1"/>
-<connect gate="B1" pin="2" pad="2"/>
-<connect gate="B1" pin="3" pad="3"/>
-<connect gate="B1" pin="4" pad="4"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2210,7 +2194,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="JP1" library="jumper" deviceset="JP2W" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BAT1" library="SMTU-2032-1" deviceset="2032" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100k"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2k"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
@@ -2243,7 +2226,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP2" library="jumper" deviceset="JP2Q" device=""/>
 <part name="IC1" library="linear" deviceset="MCP601" device="OT" value="MCP6V31"/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M"/>
@@ -2278,8 +2260,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="Q7" library="fmc" deviceset="CSM-3X-CRYSTAL" device="CSM-3X"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="18uF"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="18uF"/>
-<part name="GND66" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BAT2" library="SMTU-2032-1" deviceset="2032" device=""/>
 <part name="C45" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="U2" library="sf-bluegiga" deviceset="BGM111-VISUAL" device="-A"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2288,6 +2268,8 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="tag-connect" deviceset="TC2030" device="-MCP-NL"/>
+<part name="JP3" library="jumper" deviceset="JP2E" device=""/>
+<part name="BAT2" library="SMTU-2032-1" deviceset="2032" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2302,7 +2284,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <instance part="GND4" gate="1" x="388.62" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="386.08" y="-48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="BAT1" gate="G$1" x="381" y="-43.18" rot="R180"/>
 <instance part="R1" gate="G$1" x="571.5" y="-22.86"/>
 <instance part="R2" gate="G$1" x="584.2" y="-33.02" rot="R90"/>
 <instance part="C3" gate="G$1" x="594.36" y="-25.4"/>
@@ -2335,7 +2316,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <instance part="C12" gate="G$1" x="609.6" y="-421.64"/>
 <instance part="R12" gate="G$1" x="586.74" y="-406.4"/>
 <instance part="GND9" gate="1" x="609.6" y="-426.72"/>
-<instance part="JP2" gate="B1" x="396.24" y="-299.72"/>
 <instance part="IC1" gate="G$1" x="627.38" y="-12.7"/>
 <instance part="R13" gate="G$1" x="627.38" y="-38.1"/>
 <instance part="R14" gate="G$1" x="612.14" y="-15.24"/>
@@ -2384,10 +2364,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 </instance>
 <instance part="C19" gate="G$1" x="901.7" y="-114.3" rot="R180"/>
 <instance part="C20" gate="G$1" x="929.64" y="-114.3" rot="R180"/>
-<instance part="GND66" gate="1" x="388.62" y="-63.5" smashed="yes">
-<attribute name="VALUE" x="386.08" y="-66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="BAT2" gate="G$1" x="381" y="-60.96" rot="R180"/>
 <instance part="C45" gate="G$1" x="937.26" y="-88.9" rot="R180"/>
 <instance part="U2" gate="G$1" x="1023.62" y="-195.58"/>
 <instance part="GND25" gate="1" x="993.14" y="-180.34"/>
@@ -2396,6 +2372,8 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <instance part="GND28" gate="1" x="1061.72" y="-180.34"/>
 <instance part="GND29" gate="1" x="1013.46" y="-233.68"/>
 <instance part="J2" gate="G$1" x="982.98" y="-228.6" rot="R180"/>
+<instance part="JP3" gate="1" x="383.54" y="-299.72"/>
+<instance part="BAT2" gate="G$1" x="381" y="-43.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2412,11 +2390,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="482.6" y1="-88.9" x2="513.08" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="-88.9" x2="482.6" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="482.6" y="-88.9"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="386.08" y1="-43.18" x2="388.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="BAT1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -2554,11 +2527,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <junction x="929.64" y="-121.92"/>
 </segment>
 <segment>
-<pinref part="GND66" gate="1" pin="GND"/>
-<wire x1="386.08" y1="-60.96" x2="388.62" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="BAT2" gate="G$1" pin="-"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="1005.84" y1="-177.8" x2="993.14" y2="-177.8" width="0.1524" layer="91"/>
@@ -2583,19 +2551,10 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="995.68" y1="-231.14" x2="1013.46" y2="-231.14" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="REF" class="0">
 <segment>
-<pinref part="JP1" gate="1" pin="3"/>
-<wire x1="439.42" y1="-40.64" x2="439.42" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IA_1" gate="G$1" pin="IN-"/>
-<wire x1="439.42" y1="-43.18" x2="482.6" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IA_2" gate="G$1" pin="IN-"/>
-<wire x1="447.04" y1="-177.8" x2="454.66" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="-177.8" x2="490.22" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="-43.18" x2="439.42" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="-177.8" x2="447.04" y2="-177.8" width="0.1524" layer="91"/>
-<junction x="439.42" y="-43.18"/>
+<pinref part="BAT2" gate="G$1" pin="-"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="386.08" y1="-43.18" x2="388.62" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EEG1+" class="0">
@@ -2730,10 +2689,14 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="881.38" y1="-78.74" x2="881.38" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="881.38" y1="-68.58" x2="883.92" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="883.92" y1="-68.58" x2="883.92" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="883.92" y1="-66.04" x2="886.46" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="886.46" y1="-66.04" x2="886.46" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="889" y1="-60.96" x2="886.46" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="DVDD"/>
+<wire x1="878.84" y1="-78.74" x2="881.38" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="881.38" y="-78.74"/>
 </segment>
 <segment>
-<wire x1="365.76" y1="-43.18" x2="375.92" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="BAT1" gate="G$1" pin="+"/>
 <wire x1="365.76" y1="-48.26" x2="365.76" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="-48.26" x2="350.52" y2="-55.88" width="0.1524" layer="91"/>
 <label x="355.6" y="-55.88" size="1.27" layer="95" xref="yes"/>
@@ -2749,6 +2712,11 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <label x="566.42" y="-129.54" size="1.27" layer="95" xref="yes"/>
 <label x="767.08" y="-134.62" size="1.27" layer="95" xref="yes"/>
 <label x="807.72" y="-50.8" size="1.27" layer="95" xref="yes"/>
+<label x="889" y="-60.96" size="1.27" layer="95" xref="yes"/>
+<label x="1005.84" y="-243.84" size="1.27" layer="95" xref="yes"/>
+<label x="1059.18" y="-198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="BAT2" gate="G$1" pin="+"/>
+<wire x1="365.76" y1="-43.18" x2="375.92" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2846,24 +2814,14 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="599.44" y1="-88.9" x2="817.88" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EMG1-" class="0">
-<segment>
-<pinref part="IA_3" gate="G$1" pin="IN-"/>
-<wire x1="449.58" y1="-309.88" x2="492.76" y2="-309.88" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="-309.88" x2="449.58" y2="-284.48" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="-284.48" x2="396.24" y2="-284.48" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="B1" pin="2"/>
-<wire x1="396.24" y1="-284.48" x2="396.24" y2="-292.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="EMG1+" class="0">
 <segment>
 <pinref part="IA_3" gate="G$1" pin="IN+"/>
 <wire x1="472.44" y1="-299.72" x2="492.76" y2="-299.72" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="-299.72" x2="472.44" y2="-312.42" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="-312.42" x2="396.24" y2="-312.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="B1" pin="1"/>
-<wire x1="396.24" y1="-312.42" x2="396.24" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="-312.42" x2="381" y2="-312.42" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="1" pin="1"/>
+<wire x1="381" y1="-302.26" x2="381" y2="-312.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -2910,26 +2868,14 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="820.42" y1="-91.44" x2="820.42" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EMG2-" class="0">
-<segment>
-<pinref part="IA_4" gate="G$1" pin="IN-"/>
-<wire x1="454.66" y1="-439.42" x2="464.82" y2="-439.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="B1" pin="4"/>
-<wire x1="464.82" y1="-439.42" x2="497.84" y2="-439.42" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="-292.1" x2="398.78" y2="-289.56" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="-289.56" x2="419.1" y2="-289.56" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="-289.56" x2="419.1" y2="-439.42" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="-439.42" x2="454.66" y2="-439.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="EMG2+" class="0">
 <segment>
 <pinref part="IA_4" gate="G$1" pin="IN+"/>
-<wire x1="477.52" y1="-429.26" x2="485.14" y2="-429.26" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="B1" pin="3"/>
-<wire x1="485.14" y1="-429.26" x2="497.84" y2="-429.26" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="-307.34" x2="398.78" y2="-429.26" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="-429.26" x2="477.52" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="-429.26" x2="497.84" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="1" pin="2"/>
+<wire x1="398.78" y1="-307.34" x2="383.54" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="-307.34" x2="383.54" y2="-302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3251,22 +3197,12 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="1041.4" y1="-182.88" x2="1054.1" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="1054.1" y1="-182.88" x2="1054.1" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="1054.1" y1="-193.04" x2="1059.18" y2="-193.04" width="0.1524" layer="91"/>
-<wire x1="1059.18" y1="-193.04" x2="1059.18" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="1059.18" y1="-198.12" x2="1059.18" y2="-193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="VDD"/>
 <wire x1="995.68" y1="-233.68" x2="1005.84" y2="-233.68" width="0.1524" layer="91"/>
-<wire x1="1005.84" y1="-233.68" x2="1005.84" y2="-241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="BAT2" gate="G$1" pin="+"/>
-<wire x1="368.3" y1="-60.96" x2="375.92" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="-60.96" x2="368.3" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="-73.66" x2="378.46" y2="-73.66" width="0.1524" layer="91"/>
-<label x="378.46" y="-73.66" size="1.27" layer="95" xref="yes"/>
-<label x="883.92" y="-66.04" size="1.27" layer="95" xref="yes"/>
-<label x="1005.84" y="-241.3" size="1.27" layer="95" xref="yes"/>
-<label x="1059.18" y="-195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="1005.84" y1="-233.68" x2="1005.84" y2="-243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$110" class="0">
@@ -3350,6 +3286,39 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="878.84" y1="-91.44" x2="952.5" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="952.5" y1="-91.44" x2="952.5" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="952.5" y1="-81.28" x2="970.28" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="REF" class="0">
+<segment>
+<pinref part="IA_4" gate="G$1" pin="IN-"/>
+<wire x1="398.78" y1="-289.56" x2="419.1" y2="-289.56" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="-289.56" x2="419.1" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="-439.42" x2="497.84" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="-289.56" x2="398.78" y2="-299.72" width="0.1524" layer="91"/>
+<pinref part="IA_3" gate="G$1" pin="IN-"/>
+<wire x1="449.58" y1="-309.88" x2="492.76" y2="-309.88" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="-309.88" x2="449.58" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="-284.48" x2="396.24" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="-284.48" x2="396.24" y2="-292.1" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="1" pin="3"/>
+<wire x1="439.42" y1="-40.64" x2="439.42" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="IA_1" gate="G$1" pin="IN-"/>
+<wire x1="439.42" y1="-43.18" x2="482.6" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="IA_2" gate="G$1" pin="IN-"/>
+<wire x1="439.42" y1="-177.8" x2="490.22" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="-43.18" x2="439.42" y2="-177.8" width="0.1524" layer="91"/>
+<junction x="439.42" y="-43.18"/>
+<wire x1="439.42" y1="-177.8" x2="391.16" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="-177.8" x2="391.16" y2="-292.1" width="0.1524" layer="91"/>
+<junction x="439.42" y="-177.8"/>
+<pinref part="JP3" gate="1" pin="3"/>
+<wire x1="391.16" y1="-292.1" x2="391.16" y2="-299.72" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="-299.72" x2="391.16" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="-302.26" x2="386.08" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="-292.1" x2="391.16" y2="-292.1" width="0.1524" layer="91"/>
+<junction x="391.16" y="-292.1"/>
+<wire x1="398.78" y1="-299.72" x2="391.16" y2="-299.72" width="0.1524" layer="91"/>
+<junction x="391.16" y="-299.72"/>
 </segment>
 </net>
 </nets>
