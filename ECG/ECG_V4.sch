@@ -6582,13 +6582,12 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="119.38" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 <junction x="119.38" y="68.58"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<label x="109.22" y="60.96" size="1.27" layer="95" xref="yes"/>
 <junction x="104.14" y="68.58"/>
-<wire x1="104.14" y1="7.62" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<junction x="104.14" y="60.96"/>
-<label x="66.04" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="104.14" y1="7.62" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="63.5" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<junction x="104.14" y="63.5"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -6603,12 +6602,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="SJ1" gate="1" pin="2"/>
 <wire x1="38.1" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
